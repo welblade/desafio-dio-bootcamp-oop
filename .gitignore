@@ -44,6 +44,8 @@
 .idea/modules.xml
 .idea/*.iml
 .idea/modules
+.idea/discord.xml
+.idea/gradle.xml
 *.iml
 *.ipr
 
@@ -140,7 +142,7 @@ hs_err_pid*
 replay_pid*
 
 ### Gradle ###
-.gradle
+.gradle/*
 **/build/
 !src/**/build/
 
