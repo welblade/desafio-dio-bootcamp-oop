@@ -1,11 +1,13 @@
 package com.github.welblade.desafio_dio_bootcamp.data.model;
 
 import lombok.Getter;
+import lombok.Setter;
 
 import java.util.Objects;
 
 public class Curso extends Conteudo {
     @Getter
+    @Setter
     private int cargaHoraria;
 
     @Override

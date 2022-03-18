@@ -1,6 +1,7 @@
 package com.github.welblade.desafio_dio_bootcamp.data.model;
 
 import lombok.Getter;
+import lombok.Setter;
 
 import java.time.LocalDate;
 import java.util.Objects;
@@ -9,6 +10,7 @@ public class Mentoria extends Conteudo {
     private static final double XP_BONUS = 20d;
 
     @Getter
+    @Setter
     private LocalDate data;
 
     @Override
