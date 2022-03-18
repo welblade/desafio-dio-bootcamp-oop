@@ -10,6 +10,12 @@ public class Curso extends Conteudo {
     @Setter
     private int cargaHoraria;
 
+    public Curso(String titulo, String descricao, int cargaHoraria) {
+        super(titulo, descricao);
+        this.cargaHoraria = cargaHoraria;
+    }
+
+
     @Override
     double calculaXP() {
         return XP_PADRAO * cargaHoraria;

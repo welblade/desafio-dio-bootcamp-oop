@@ -13,6 +13,11 @@ public class Mentoria extends Conteudo {
     @Setter
     private LocalDate data;
 
+    public Mentoria(String titulo, String descricao, LocalDate data) {
+        super(titulo, descricao);
+        this.data = data;
+    }
+
     @Override
     double calculaXP() {
         return XP_PADRAO + XP_BONUS;

@@ -16,14 +16,19 @@ public class Bootcamp {
     @Setter
     private String descricao;
     @Getter
-    @Setter
-    private LocalDate dataInicial;
+    private final LocalDate dataInicial;
     @Getter
-    @Setter
-    private LocalDate dataFinal;
+    private final LocalDate dataFinal;
     @Getter
     private final Set<Dev> devsInscritos = new HashSet<>();
     @Getter
     private final Set<Conteudo> conteudos = new LinkedHashSet<>();
+
+    public Bootcamp(String nome,  String descricao) {
+        this.nome = nome;
+        this.descricao = descricao;
+        dataInicial = LocalDate.now();
+        dataFinal = dataInicial.plusDays(45);
+    }
 
 }

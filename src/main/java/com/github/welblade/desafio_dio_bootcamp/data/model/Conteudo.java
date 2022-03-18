@@ -12,5 +12,10 @@ abstract class Conteudo {
     @Setter
     private String descricao;
 
+    public Conteudo(String titulo, String descricao) {
+        this.titulo = titulo;
+        this.descricao = descricao;
+    }
+
     abstract double calculaXP();
 }

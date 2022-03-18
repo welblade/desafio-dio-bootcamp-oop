@@ -11,6 +11,7 @@
 Como desafio foi proposto que algumas melhorias fossem feitas no projeto original, algumas das modificações que fiz foram:
 
 - [x] Adicionar a biblioteca Lombok ao projeto.
+- [x] Adicionar construtores para as classes.
 
 ## 💻 Pré-requisitos
 
