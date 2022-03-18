@@ -10,7 +10,7 @@
 
 Como desafio foi proposto que algumas melhorias fossem feitas no projeto original, algumas das modificações que fiz foram:
 
-- [x] Tarefa 1
+- [x] Adicionar a biblioteca Lombok ao projeto.
 
 ## 💻 Pré-requisitos
 
